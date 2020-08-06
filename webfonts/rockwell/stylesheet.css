@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Rockwell';
+    src: url('Rockwell.eot');
+    src: url('Rockwell.eot?#iefix') format('embedded-opentype'),
+        url('Rockwell.woff2') format('woff2'),
+        url('Rockwell.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

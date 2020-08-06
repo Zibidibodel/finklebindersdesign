@@ -1,0 +1,6 @@
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff !important;
+    text-transform: uppercase !important;
+    font-weight: 800;
+    padding-right: 3.5rem !important;
+}

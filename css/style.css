@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'Rockwell';
+    src: url('../webfonts/rockwell/Rockwell.eot');
+    src: url('../webfonts/rockwell/Rockwell.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/rockwell/Rockwell.woff2') format('woff2'),
+        url('../webfonts/rockwell/Rockwell.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Wicked Mouse';
+    src: url('../webfonts/wicked/WickedMouse.eot');
+    src: url('../webfonts/wicked/WickedMouse.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/wicked/WickedMouse.woff2') format('woff2'),
+        url('../webfonts/wicked/WickedMouse.woff') format('woff'),
+        url('../webfonts/wicked/WickedMouse.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+.main_wrapper {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../img/background.jpg');
+    min-height: 100vh;
+}
+.main_wrapper::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(255,255,255,0.84);
+}
+.top_head {
+    padding: 10px 0;
+    min-height: 160px;
+}
+.logo-top {
+    max-width: 140px;
+    width: 100%;
+    height: auto;
+}
+
+#main-header {
+    position: relative;
+    background: #3b82c3
+}
+#main-header::before , #main-header::after {
+    content: '';
+    position: absolute;
+    height: 4px ;
+    background: #c2e5f7
+}
+#main-header::before {
+    top: -8px;
+    left: 0;
+    right: 0;
+    bottom: auto;
+}
+#main-header::after {
+    bottom: -8px;
+    left: 0;
+    right: 0;
+    top: auto;
+    z-index: 0;
+}
+.navbar-brand {
+    position: relative;
+    margin-top: -104px;
+    margin-bottom: -103px;
+    z-index: 1;
+}
+.navbar-brand img {
+    max-width: 100%;
+    height: auto;
+}
+
+.special-section {
+    padding: 120px 0 50px 0
+}
+.section-title {
+    margin-bottom: 1.5rem;
+text-align: center;
+}
+.section-title h2 {
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Rockwell';
+    font-weight: 700;
+    font-style: italic;
+}  
+.section-title p {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: 'Rockwell';
+    /* font-weight: 700; */
+} 
+
+.food_menu_item {
+    position: relative;
+    text-align: center;
+}
+.food_menu_item .img_wrap {
+    border: 4px solid #fff;
+    margin-bottom: 0.5rem;
+}
+
+.food_menu_item .img_wrap img {
+    max-width: 100%;
+    height: auto;
+}
+
+.food_menu_item p {
+    text-transform: uppercase;
+    font-family: 'Rockwell';
+    font-size: 18px;
+}
+
+.menu-section {
+    padding: 120px 0 0 0
+}
+.menu_block  {
+    margin-bottom: 2rem;
+}
+.menu_block h3{
+    font-family: 'Wicked Mouse';
+    text-align: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #c37311;
+    margin-bottom: 2rem;
+    font-size: 50px;
+
+}
+
+.menu_list {
+    padding: 0;
+    list-style: none;
+}
+.menu_list li {
+    margin-bottom: 1rem;
+}
+
+.menu_list li .title {
+    margin-bottom: 0;
+    font-family: 'Rockwell';
+    font-size: 25px;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.menu_list li .title  span {
+    color: #3b82c3
+}
+
+.menu_list li .ing {
+    font-size: 18px;
+    font-family: 'calibri';
+    margin-bottom: 0;
+}
+
+.copyright {
+    background-color: #3b82c3;
+    padding: 10px 0;
+    color: #fff;
+    text-align: center;
+}
+
+@media (max-width: 567px) {
+    .logo-top {
+        max-width: 100px;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+    .menu_list li .title {
+        font-size: 20px;
+        line-height: 1.4;
+    }
+    .menu_list li .title span{
+        display: block;
+    }
+    .menu_block h3 {
+        font-size: 36px;
+    }
+}
+
